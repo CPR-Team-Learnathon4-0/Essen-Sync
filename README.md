@@ -4,8 +4,8 @@
 - **Hackathon Name**: Learnathon 4.0
 - **Organized By**: GIET University in collaboration with Co-Ignite
 - **Track**: AI/ML – Real-world Applications
-- **Project Title**: **Essen-Sync – Smart Interactive CPR Training Application**
-- **Problem Statement**: **Problem Statement 2**
+- **Project Title**: **Essen-Sync – A Smartphone Sensor based CPR Simulation Application**
+- **Problem Statement**: **2**
 
 ---
 
@@ -26,8 +26,11 @@
 
 ## 📹 Project Demonstration
 
-- **📽️ Project Description Video**: [🔗 Click Here to Watch](https://drive.google.com/your-demo-link)
-- **📱 APK Download Link**: [📦 Click Here to Download APK](https://drive.google.com/your-apk-link)
+- **📽️ Project Description Video**: [🔗 Click Here to Watch the youtube Video](https://www.youtube.com/playlist?list=PLp8boWuzZ8E1eJy5vPHAgkPi6bepcCE8x)
+- **📱 APK Download Link**: [📦 Click Here to Download APK](https://drive.google.com/drive/folders/1cg2NEsU7Sdu0bOxPXWPefR-Qx6MtIGTT?usp=sharing)
+
+- **PPT link**: [📦 Click Here to see ppt /pdf ](https://drive.google.com/drive/folders/1cg2NEsU7Sdu0bOxPXWPefR-Qx6MtIGTT?usp=sharing)
+
 
 ---
 
@@ -51,7 +54,7 @@
 
 ## 🧩 Our Solution: **Essen-Sync**
 
-**Essen-Sync** is a smart mobile application developed using **Flutter** that helps individuals practice CPR effectively using just a smartphone. The app detects motion using gyroscope sensors and provides **instant haptic feedback** (via vibration) to simulate CPR compressions. Our aim is to train users anytime, anywhere, using the power of mobile sensing and intuitive interfaces.
+**Essen-Sync** is a smart mobile application developed using **Flutter** that helps individuals practice CPR effectively using just a smartphone. The app detects compression rate using **gyroscope sensors, accelerometer** and provides **instant haptic feedback** to simulate CPR compressions. Our aim is to train users anytime, anywhere, using the power of mobile sensing and intuitive interfaces.
 
 ---
 
@@ -61,7 +64,7 @@
 |-------------------|--------------------------------------|
 | **Flutter**        | Cross-platform mobile app framework |
 | **Dart**           | Application logic and UI             |
-| **sensors_plus**   | Gyroscope event tracking             |
+| **sensors_plus**   | Gyroscope event tracking and Accelerometer           |
 | **vibration**      | Haptic feedback on motion detection  |
 | **Android SDK**    | App build and testing                |
 
@@ -69,12 +72,32 @@
 
 ## ✨ Unique Features
 
-- ✅ Uses **built-in phone sensors**—no external hardware required
+- ✅ Uses **built-in phone sensors**—no external hardware or IoT sensor required
 - 💡 Provides **real-time feedback** (visual and vibration)
 - 🧩 Ready for **gamification** and training scoring in future versions
 - 🗣️ Plans to include **voice-guided CPR instructions**
 - 🕹️ Lightweight and beginner-friendly training interface
 
+
+---
+
+## 🚧 Project Setup & Run
+
+### ✅ Prerequisites
+
+- Flutter SDK installed (Stable version)
+- Android Studio / VS Code with Flutter plugin
+- Connected Android device or emulator
+
+### ▶️ Run the App
+
+```bash
+# Navigate to the project folder
+cd essen_sync
+
+# Fetch dependencies
+flutter pub get
+```
 ---
 
 ## 🌱 Sustainability & Future Expectations
@@ -97,12 +120,22 @@ We welcome suggestions for:
 
 ---
 
+## 🔗 Resources and References
+
+- [NCBI - Basic Life Support](https://www.ncbi.nlm.nih.gov/books/NBK470402/)
+- [American Heart Association CPR Guidelines](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/algorithms)
+- [Smartphone-based CPR Training Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4237286/)
+- [Post Cardiac Arrest Guidelines](https://www.ahajournals.org/doi/10.1161/circulationaha.110.971002)
+
+---
+
 ## 📬 Contact
+
 
 For any queries, feedback, or collaboration opportunities, feel free to reach us:
 
 📧 **Keshab Sharma** – [23cseaiml116.keshabsharma@giet.edu](mailto:23cseaiml116.keshabsharma@giet.edu)  
-🔗 **GitHub Repository** – _coming soon_  
+🔗 **GitHub Repository** – [_Essen-Sync_](https://github.com/CPR-Team-Learnathon4-0/Essen-Sync)  
 🏫 **Institution** – GIET University, Rayagada, Odisha  
 
 ---
